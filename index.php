@@ -210,7 +210,7 @@ header("Expires: Sat, 30 Dec 2050 00:00:00 GMT");
     ?>
 
     <!-- Popup 1: Días 15 al 18 -->
-    <div id="popup1"
+    <!-- <div id="popup1"
         class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50 <?php echo $popupAMostrar !== 'popup1' ? 'hidden' : ''; ?>">
         <div class="slide-up bg-white rounded-lg shadow-lg p-8 w-auto mt-20 md:mt-0">
             <div class="flex justify-end">
@@ -231,10 +231,10 @@ header("Expires: Sat, 30 Dec 2050 00:00:00 GMT");
                     volver a mostrar</button>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Popup 2: Días 19 y 20 -->
-    <div id="popup2"
+    <!-- <div id="popup2"
         class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50 <?php echo $popupAMostrar !== 'popup2' ? 'hidden' : ''; ?>">
         <div class="slide-up bg-white rounded-lg shadow-lg p-8 w-auto mt-20 md:mt-0">
             <div class="flex justify-end">
@@ -255,47 +255,10 @@ header("Expires: Sat, 30 Dec 2050 00:00:00 GMT");
                     volver a mostrar</button>
             </div>
         </div>
-    </div>
-
-
-    <div id="bottom-banner" tabindex="-1"
-        class="grid grid-cols-1 fixed bottom-0 start-0 z-50 justify-items-center text-center gap-y-2 justify-between w-full p-4 backdrop-blur-[15px] backdrop-saturate-[200%] bg-[rgba(255,255,255,0.2)] border rounded-none border-solid border-[rgba(216,216,216,0.13)] -webkit-backdrop-filter: blur(10px) saturate(200%) dark:backdrop-blur-[10px] dark:backdrop-saturate-[200%] dark:bg-[rgba(0,0,0,0.4)] dark:border-solid dark:border-[rgba(0, 0, 0, 0.13)] <?php echo $popupAMostrar !== 'popup3' ? 'hidden' : ''; ?>">
-        <div class="mb-4 md:mb-0 md:me-4">
-            <h2 class="mb-1 text-base font-semibold text-gray-900 dark:text-white">Nuevo mes, nuevas noticias</h2>
-            <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
-                Te invitamos a conocer las promociones que tenemos para ti este mes y/o los índices delictivos del mes
-                anterior.
-            </p>
-            <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
-                ¡Agradecemos tu preferencia y tu pago puntual previo al día 10 del mes!
-            </p>
-        </div>
-        <div class="flex items-center flex-shrink-0 mb-2">
-            <a href="#"
-                class="inline-flex items-center justify-center px-3 py-2 me-3 text-xs font-medium text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-700 dark:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                <svg class="w-3 h-3 me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                    <path fill="currentColor"
-                        d="M14.25 2.1a1.25 1.25 0 0 0-1.17-.1L6.91 4.43a1.2 1.2 0 0 1-.46.09H2.5a1.25 1.25 0 0 0-1.25 1.25v.1H0v3h1.25V9a1.25 1.25 0 0 0 1.25 1.22L4 13.4a1.26 1.26 0 0 0 1.13.72h.63A1.25 1.25 0 0 0 7 12.87v-2.53l6.08 2.43a1.3 1.3 0 0 0 .47.09a1.3 1.3 0 0 0 .7-.22a1.25 1.25 0 0 0 .55-1V3.13a1.25 1.25 0 0 0-.55-1.03m-8.5 3.67V9H2.5V5.77zm0 7.1h-.63l-1.23-2.65h1.86zm1.62-3.72A2.3 2.3 0 0 0 7 9V5.7a2.3 2.3 0 0 0 .37-.11l6.18-2.46v8.48zm7.46-3.03v2.5a1.25 1.25 0 0 0 0-2.5" />
-                </svg>
-                Promo</a>
-            <a href="#"
-                class="inline-flex items-center justify-center px-3 py-2 me-2 text-xs font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-                <svg class="w-3 h-3 me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
-                    <path fill="currentColor"
-                        d="M15.555 53.125h24.89c4.852 0 7.266-2.461 7.266-7.336V24.508c0-3.024-.328-4.336-2.203-6.258L32.57 5.102c-1.78-1.829-3.234-2.227-5.882-2.227H15.555c-4.828 0-7.266 2.484-7.266 7.36v35.554c0 4.898 2.438 7.336 7.266 7.336m.187-3.773c-2.414 0-3.68-1.29-3.68-3.633V10.305c0-2.32 1.266-3.657 3.704-3.657h10.406v13.618c0 2.953 1.5 4.406 4.406 4.406h13.36v21.047c0 2.343-1.243 3.633-3.68 3.633ZM31 21.132c-.914 0-1.29-.374-1.29-1.312V7.375l13.5 13.758Z" />
-                </svg>
-                Índice</a>
-        </div>
-        <div class="flex items-center flex-shrink-0">
-            <button type="button" id="noMostrar3"
-                class="text-sm font-medium text-blue-700 dark:text-blue-300 focus:outline-none">No
-                volver a mostrar</button>
-        </div>
-    </div>
-
+    </div> -->
 
     <!-- Popup 3: Todos los demás días -->
-    <div id="popup3"
+    <!-- <div id="popup3"
         class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50 <?php echo $popupAMostrar !== 'popup3' ? 'hidden' : ''; ?>">
         <div class="slide-up bg-white rounded-lg shadow-lg p-8 w-auto mt-20 md:mt-0">
             <div class="flex justify-end">
@@ -322,10 +285,10 @@ header("Expires: Sat, 30 Dec 2050 00:00:00 GMT");
                     volver a mostrar</button>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Popup 4: Aparece después de cerrar o marcar "No volver a mostrar" en los otros popups -->
-    <div id="popup4"
+    <!-- <div id="popup4"
         class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50 hidden">
         <div class="slide-up bg-white rounded-lg shadow-lg p-8 w-auto mt-20 md:mt-0">
             <div class="flex justify-end">
@@ -343,6 +306,126 @@ header("Expires: Sat, 30 Dec 2050 00:00:00 GMT");
             <div>
                 <button type="button" id="noMostrar4"
                     class="py-2.5 px-5 me-2 mt-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">No
+                    volver a mostrar</button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Popup 1: Días 15 al 18 -->
+    <div id="popup1">
+        <div id="bottom-banner" tabindex="-1"
+            class="grid grid-cols-1 fixed bottom-0 start-0 z-50 justify-items-center text-center gap-y-2 justify-between w-full p-4 backdrop-blur-[15px] backdrop-saturate-[200%] bg-[rgba(255,255,255,0.2)] border rounded-none border-solid border-[rgba(216,216,216,0.13)] -webkit-backdrop-filter: blur(10px) saturate(200%) dark:backdrop-blur-[10px] dark:backdrop-saturate-[200%] dark:bg-[rgba(5,0,70,0.4)] dark:border-solid dark:border-[rgba(0, 0, 0, 0.13)] <?php echo $popupAMostrar !== 'popup1' ? 'hidden' : ''; ?>">
+            <div class="mb-4 md:mb-0 md:me-4">
+                <h2 class="mb-1 text-base font-semibold text-gray-900 dark:text-white">¿Ya realizaste tu pago mensual?
+                </h2>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    Este es sólo un recordatorio. No olvides que a partir del día 20 de cada mes por sistema inician los
+                    cortes de servicio.
+                </p>
+                <p class="text-sm font-bold text-red-500 dark:text-red-500">
+                    Si ya realizaste tu pago, favor de hacer caso omiso.
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    ¡Gracias por tu pago puntual!
+                </p>
+            </div>
+            <div class="flex items-center flex-shrink-0">
+                <button type="button" id="noMostrar1"
+                    class="text-sm font-medium text-blue-700 dark:text-blue-300 focus:outline-none">No
+                    volver a mostrar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup 2: Días 19 y 20 -->
+    <div id="popup2">
+        <div id="bottom-banner" tabindex="-1"
+            class="grid grid-cols-1 fixed bottom-0 start-0 z-50 justify-items-center text-center gap-y-2 justify-between w-full p-4 backdrop-blur-[15px] backdrop-saturate-[200%] bg-[rgba(255,255,255,0.2)] border rounded-none border-solid border-[rgba(216,216,216,0.13)] -webkit-backdrop-filter: blur(10px) saturate(200%) dark:backdrop-blur-[10px] dark:backdrop-saturate-[200%] dark:bg-[rgba(5,0,70,0.4)] dark:border-solid dark:border-[rgba(0, 0, 0, 0.13)] <?php echo $popupAMostrar !== 'popup1' ? 'hidden' : ''; ?>">
+            <div class="mb-4 md:mb-0 md:me-4">
+                <h2 class="mb-1 text-base font-semibold text-gray-900 dark:text-white">¡NO TE QUEDES SIN SERVICIO!
+                </h2>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    El día 20 de cada mes, por sistema inician cortes de servicio automáticos. Envía tu comprobante de
+                    pago <span class="font-bold uppercase">hoy</span> mismo y evita suspensión vía correo o WhatsApp.
+                </p>
+                <p class="text-sm font-bold text-red-500 dark:text-red-500">
+                    Si ya realizaste tu pago, favor de hacer caso omiso.
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    ¡Gracias por tu pago puntual!
+                </p>
+            </div>
+            <div class="flex items-center flex-shrink-0">
+                <button type="button" id="noMostrar2"
+                    class="text-sm font-medium text-blue-700 dark:text-blue-300 focus:outline-none">No
+                    volver a mostrar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup 3: Todos los demás días -->
+    <div id="popup3">
+        <div id="bottom-banner" tabindex="-1"
+            class="grid grid-cols-1 fixed bottom-0 start-0 z-50 justify-items-center text-center gap-y-2 justify-between w-full p-4 backdrop-blur-[15px] backdrop-saturate-[200%] bg-[rgba(255,255,255,0.2)] border rounded-none border-solid border-[rgba(216,216,216,0.13)] -webkit-backdrop-filter: blur(10px) saturate(200%) dark:backdrop-blur-[10px] dark:backdrop-saturate-[200%] dark:bg-[rgba(5,0,70,0.4)] dark:border-solid dark:border-[rgba(0, 0, 0, 0.13)] <?php echo $popupAMostrar !== 'popup3' ? 'hidden' : ''; ?>">
+            <div class="mb-4 md:mb-0 md:me-4">
+                <h2 class="mb-1 text-base font-semibold text-gray-900 dark:text-white">Nuevo mes, nuevas noticias</h2>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    Te invitamos a conocer las promociones que tenemos para ti este mes y/o los índices delictivos del
+                    mes
+                    anterior.
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    ¡Agradecemos tu preferencia y tu pago puntual previo al día 10 del mes!
+                </p>
+            </div>
+            <div class="flex items-center flex-shrink-0 mb-2">
+                <a href="#"
+                    class="inline-flex items-center justify-center px-3 py-2 me-3 text-xs font-medium text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-700 dark:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                    <svg class="w-3 h-3 me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <path fill="currentColor"
+                            d="M14.25 2.1a1.25 1.25 0 0 0-1.17-.1L6.91 4.43a1.2 1.2 0 0 1-.46.09H2.5a1.25 1.25 0 0 0-1.25 1.25v.1H0v3h1.25V9a1.25 1.25 0 0 0 1.25 1.22L4 13.4a1.26 1.26 0 0 0 1.13.72h.63A1.25 1.25 0 0 0 7 12.87v-2.53l6.08 2.43a1.3 1.3 0 0 0 .47.09a1.3 1.3 0 0 0 .7-.22a1.25 1.25 0 0 0 .55-1V3.13a1.25 1.25 0 0 0-.55-1.03m-8.5 3.67V9H2.5V5.77zm0 7.1h-.63l-1.23-2.65h1.86zm1.62-3.72A2.3 2.3 0 0 0 7 9V5.7a2.3 2.3 0 0 0 .37-.11l6.18-2.46v8.48zm7.46-3.03v2.5a1.25 1.25 0 0 0 0-2.5" />
+                    </svg>
+                    Promo</a>
+                <a href="#"
+                    class="inline-flex items-center justify-center px-3 py-2 me-2 text-xs font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                    <svg class="w-3 h-3 me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+                        <path fill="currentColor"
+                            d="M15.555 53.125h24.89c4.852 0 7.266-2.461 7.266-7.336V24.508c0-3.024-.328-4.336-2.203-6.258L32.57 5.102c-1.78-1.829-3.234-2.227-5.882-2.227H15.555c-4.828 0-7.266 2.484-7.266 7.36v35.554c0 4.898 2.438 7.336 7.266 7.336m.187-3.773c-2.414 0-3.68-1.29-3.68-3.633V10.305c0-2.32 1.266-3.657 3.704-3.657h10.406v13.618c0 2.953 1.5 4.406 4.406 4.406h13.36v21.047c0 2.343-1.243 3.633-3.68 3.633ZM31 21.132c-.914 0-1.29-.374-1.29-1.312V7.375l13.5 13.758Z" />
+                    </svg>
+                    Índice</a>
+            </div>
+            <div class="flex items-center flex-shrink-0">
+                <button type="button" id="noMostrar3"
+                    class="text-sm font-medium text-blue-700 dark:text-blue-300 focus:outline-none">No
+                    volver a mostrar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup 4: Aparece después de cerrar o marcar "No volver a mostrar" en los otros popups -->
+    <div id="popup4">
+        <div id="bottom-banner" tabindex="-1"
+            class="grid grid-cols-1 fixed bottom-0 start-0 z-50 justify-items-center text-center gap-y-2 justify-between w-full p-4 backdrop-blur-[15px] backdrop-saturate-[200%] bg-[rgba(255,255,255,0.2)] border rounded-none border-solid border-[rgba(216,216,216,0.13)] -webkit-backdrop-filter: blur(10px) saturate(200%) dark:backdrop-blur-[10px] dark:backdrop-saturate-[200%] dark:bg-[rgba(5,0,70,0.4)] dark:border-solid dark:border-[rgba(0, 0, 0, 0.13)] <?php echo $popupAMostrar !== 'popup3' ? 'hidden' : ''; ?>">
+            <div class="mb-4 md:mb-0 md:me-4">
+                <h2 class="mb-1 text-base font-semibold text-red-900 dark:text-white">Aviso importante</h2>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    Estimado cliente:
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    Como cada año iniciaremos la limpieza del sistema ATLANTIDA, con la <span
+                        class="text-red-500 dark:text-red-500">eliminación total de data</span> de unidades que se
+                    dieron de baja en 2024.
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    Igualmente se darán de baja unidades que no hayan reportado en los últimos 6 meses.
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-200">
+                    En caso de querer mantener alguna unidad, favor de notificarlo a su asesor comercial.
+                </p>
+            </div>
+            <div class="flex items-center flex-shrink-0">
+                <button type="button" id="noMostrar4"
+                    class="text-sm font-medium text-blue-700 dark:text-blue-300 focus:outline-none">No
                     volver a mostrar</button>
             </div>
         </div>
